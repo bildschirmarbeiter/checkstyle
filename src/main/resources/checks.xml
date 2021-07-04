@@ -82,7 +82,9 @@
     <module name="ExplicitInitialization"/>
     <module name="FallThrough"/>
     <module name="FinalLocalVariable"/>
-    <module name="HiddenField"/>
+    <module name="HiddenField">
+      <property name="severity" value="ignore"/>
+    </module>
     <module name="IllegalCatch"/>
     <module name="IllegalInstantiation"/>
     <module name="IllegalThrows"/>
