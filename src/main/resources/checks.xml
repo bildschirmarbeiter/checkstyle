@@ -40,7 +40,9 @@
     <module name="AnnotationOnSameLine">
       <property name="severity" value="ignore"/>
     </module>
-    <module name="AnnotationUseStyle"/>
+    <module name="AnnotationUseStyle">
+      <property name="severity" value="ignore"/>
+    </module>
     <module name="MissingDeprecated"/>
     <module name="MissingOverride"/>
     <module name="PackageAnnotation"/>
