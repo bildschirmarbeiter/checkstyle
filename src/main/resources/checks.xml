@@ -136,7 +136,12 @@
     <module name="ImportControl">
       <property name="file" value="/config/import-control.xml"/>
     </module>
-    <module name="ImportOrder"/>
+    <module name="ImportOrder">
+      <property name="groups" value="java,javax,javafx,jakarta,*"/>
+      <property name="option" value="bottom"/>
+      <property name="separated" value="true"/>
+      <property name="separatedStaticGroups" value="true"/>
+    </module>
     <module name="RedundantImport"/>
     <module name="UnusedImports"/>
 
