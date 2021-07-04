@@ -37,7 +37,9 @@
 
     <!-- Annotations -->
     <module name="AnnotationLocation"/>
-    <module name="AnnotationOnSameLine"/>
+    <module name="AnnotationOnSameLine">
+      <property name="severity" value="ignore"/>
+    </module>
     <module name="AnnotationUseStyle"/>
     <module name="MissingDeprecated"/>
     <module name="MissingOverride"/>
