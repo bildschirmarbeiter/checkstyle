@@ -129,7 +129,9 @@
     <module name="AvoidStaticImport">
       <property name="severity" value="ignore"/>
     </module>
-    <module name="CustomImportOrder"/>
+    <module name="CustomImportOrder">
+      <property name="severity" value="ignore"/>
+    </module>
     <module name="IllegalImport"/>
     <module name="ImportControl">
       <property name="file" value="/config/import-control.xml"/>
