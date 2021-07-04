@@ -195,7 +195,14 @@
     <module name="ClassMemberImpliedModifier"/>
     <module name="InterfaceMemberImpliedModifier"/>
     <module name="ModifierOrder"/>
-    <module name="RedundantModifier"/>
+    <module name="RedundantModifier">
+      <property name="tokens" value="VARIABLE_DEF"/>
+      <property name="tokens" value="ANNOTATION_FIELD_DEF"/>
+      <property name="tokens" value="CTOR_DEF"/>
+      <property name="tokens" value="CLASS_DEF"/>
+      <property name="tokens" value="ENUM_DEF"/>
+      <property name="tokens" value="RESOURCE"/>
+    </module>
 
     <!-- Naming Conventions -->
     <module name="AbbreviationAsWordInName"/>
