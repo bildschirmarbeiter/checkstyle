@@ -126,7 +126,9 @@
 
     <!-- Imports -->
     <module name="AvoidStarImport"/>
-    <module name="AvoidStaticImport"/>
+    <module name="AvoidStaticImport">
+      <property name="severity" value="ignore"/>
+    </module>
     <module name="CustomImportOrder"/>
     <module name="IllegalImport"/>
     <module name="ImportControl">
