@@ -243,7 +243,20 @@
     <!-- Whitespace -->
     <module name="EmptyForInitializerPad"/>
     <module name="EmptyForIteratorPad"/>
-    <module name="EmptyLineSeparator"/>
+    <module name="EmptyLineSeparator">
+      <property name="tokens" value="IMPORT"/>
+      <property name="tokens" value="STATIC_IMPORT"/>
+      <property name="tokens" value="CLASS_DEF"/>
+      <property name="tokens" value="INTERFACE_DEF"/>
+      <property name="tokens" value="ENUM_DEF"/>
+      <property name="tokens" value="STATIC_INIT"/>
+      <property name="tokens" value="INSTANCE_INIT"/>
+      <property name="tokens" value="METHOD_DEF"/>
+      <property name="tokens" value="CTOR_DEF"/>
+      <property name="tokens" value="VARIABLE_DEF"/>
+      <property name="tokens" value="RECORD_DEF"/>
+      <property name="tokens" value="COMPACT_CTOR_DEF"/>
+    </module>
     <module name="GenericWhitespace"/>
     <module name="MethodParamPad"/>
     <module name="NoLineWrap"/>
