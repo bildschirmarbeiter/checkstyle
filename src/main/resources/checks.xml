@@ -209,7 +209,9 @@
     </module>
 
     <!-- Naming Conventions -->
-    <module name="AbbreviationAsWordInName"/>
+    <module name="AbbreviationAsWordInName">
+      <property name="allowedAbbreviationLength" value="0"/>
+    </module>
     <module name="AbstractClassName"/>
     <module name="CatchParameterName"/>
     <module name="ClassTypeParameterName"/>
