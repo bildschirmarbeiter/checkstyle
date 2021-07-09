@@ -167,7 +167,9 @@
     <module name="RequireEmptyLineBeforeBlockTagGroup"/>
     <module name="SingleLineJavadoc"/>
     <module name="SummaryJavadoc"/>
-    <module name="WriteTag"/>
+    <module name="WriteTag">
+      <property name="severity" value="ignore"/>
+    </module>
 
     <!-- Metrics -->
     <module name="BooleanExpressionComplexity"/>
