@@ -6,6 +6,12 @@
   <property name="severity" value="error"/>
   <property name="fileExtensions" value="java, properties, xml"/>
 
+  <!-- filters -->
+
+  <module name="SuppressWarningsFilter"/>
+
+  <!-- checks -->
+
   <!-- Headers -->
   <module name="Header"/>
   <module name="RegexpHeader"/>
