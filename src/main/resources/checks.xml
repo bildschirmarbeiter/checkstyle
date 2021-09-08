@@ -210,7 +210,6 @@
       <property name="tokens" value="ANNOTATION_FIELD_DEF"/>
       <property name="tokens" value="CTOR_DEF"/>
       <property name="tokens" value="CLASS_DEF"/>
-      <property name="tokens" value="ENUM_DEF"/>
       <property name="tokens" value="RESOURCE"/>
     </module>
 
