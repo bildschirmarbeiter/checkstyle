@@ -24,7 +24,7 @@ Checkstyle checks for Bildschirmarbeiter projects
           <dependency>
             <groupId>de.bildschirmarbeiter</groupId>
             <artifactId>checkstyle</artifactId>
-            <version>2</version>
+            <version>3</version>
           </dependency>
         </dependencies>
         <configuration>
