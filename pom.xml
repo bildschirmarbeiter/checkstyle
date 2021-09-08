@@ -11,7 +11,7 @@
   </parent>
 
   <artifactId>checkstyle</artifactId>
-  <version>3-SNAPSHOT</version>
+  <version>3</version>
 
   <name>Bildschirmarbeiter Checkstyle</name>
   <description>Checkstyle checks for Bildschirmarbeiter projects</description>
@@ -22,7 +22,7 @@
     <connection>scm:git:git://github.com/bildschirmarbeiter/checkstyle.git</connection>
     <developerConnection>scm:git:git@github.com:bildschirmarbeiter/checkstyle.git</developerConnection>
     <url>https://github.com/bildschirmarbeiter/checkstyle/tree/master</url>
-    <tag>HEAD</tag>
+    <tag>checkstyle-3</tag>
   </scm>
 
 </project>
