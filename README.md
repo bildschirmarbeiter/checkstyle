@@ -19,7 +19,7 @@ Checkstyle checks for Bildschirmarbeiter projects
           <dependency>
             <groupId>com.puppycrawl.tools</groupId>
             <artifactId>checkstyle</artifactId>
-            <version>8.44</version>
+            <version>9.0</version>
           </dependency>
           <dependency>
             <groupId>de.bildschirmarbeiter</groupId>
